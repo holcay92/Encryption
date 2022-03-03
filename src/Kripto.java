@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Kripto {
     public static void main(String [] args) {
-        boolean x=false;
+        boolean x=true;
         System.out.println("Enter String : ");
         do {
             @SuppressWarnings("resource")
@@ -27,18 +27,18 @@ public class Kripto {
                     str[i]='C';
                     continue;
                 }if(str[i]=='D') {
-                    str[i]='�';
+                    str[i]='G';
                     continue;
                 }if(str[i]=='E') {
-                    str[i]='�';
+                    str[i]='ğ';
                     continue;
                 }if(str[i]=='F') {
-                    str[i]='�';
+                    str[i]='ç';
                     continue;
                 }if(str[i]=='G') {
-                    str[i]='�';
+                    str[i]='I';
                     continue;
-                }if(str[i]=='�') {
+                }if(str[i]=='ğ') {
                     str[i]='O';
                     continue;
                 }if(str[i]=='H') {
@@ -47,14 +47,14 @@ public class Kripto {
                 }if(str[i]=='I') {
                     str[i]='R';
                     continue;
-                }if(str[i]=='�') {
+                }if(str[i]=='i') {
                     str[i]='P';
                     continue;
                 }if(str[i]=='J') {
                     str[i]='U';
                     continue;
                 }if(str[i]=='K') {
-                    str[i]='�';
+                    str[i]='ç';
                     continue;
                 }if(str[i]=='L') {
                     str[i]='V';
@@ -63,12 +63,12 @@ public class Kripto {
                     str[i]='I';
                     continue;
                 }if(str[i]=='N') {
-                    str[i]='�';
+                    str[i]='ö';
                     continue;
                 }if(str[i]=='O') {
                     str[i]='Y';
                     continue;
-                }if(str[i]=='�') {
+                }if(str[i]=='e') {
                     str[i]='Z';
                     continue;
                 }if(str[i]=='P') {
@@ -80,7 +80,7 @@ public class Kripto {
                 }if(str[i]=='S') {
                     str[i]='N';
                     continue;
-                }if(str[i]=='�') {
+                }if(str[i]=='ü') {
                     str[i]='M';
                     continue;
                 }if(str[i]=='T') {
@@ -89,7 +89,7 @@ public class Kripto {
                 }if(str[i]=='U') {
                     str[i]='J';
                     continue;
-                }if(str[i]=='�') {
+                }if(str[i]=='ö') {
                     str[i]='K';
                     continue;
                 }if(str[i]=='V') {
@@ -118,7 +118,7 @@ public class Kripto {
         }
 
 
-        while(x==false);
+        while(x==true);
 
     }
 }
