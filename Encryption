@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 public class Kripto {
 	public static void main(String [] args) {
-		boolean x=false;
+		boolean x=true;
 		System.out.println("Enter String : ");
 		do {														
 		@SuppressWarnings("resource")
@@ -118,7 +118,7 @@ public class Kripto {
 				}
 			
 	
-		while(x==false);
+		while(x==true);
 				
 		}
 }	
